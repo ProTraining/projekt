@@ -1,0 +1,146 @@
+body
+{
+    background-color: #ffffff;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0% !important
+}
+
+.Pojemnik 
+{
+    width: 100%;
+    height: auto;
+}
+
+#mLOGO
+{
+    width: 100%;
+    height: 100px;
+}
+
+#LOGO
+{
+    height: 50px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Acme', sans-serif;
+}
+
+#MENU
+{
+    width: 100%;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2px;
+    background-color:#1E90FF;
+    text-align: center;
+}
+
+#CYTAT
+{
+    width: 450px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Patrick Hand', cursive;
+}
+
+#TRESC
+{
+    width: 750px;
+    height: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.STOPKA
+{
+    width: 100%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    background-color: #1E90FF;
+
+}
+
+.C
+{
+    width: 400px;
+    height: 40px;
+    float: left;
+    margin-left: auto;
+    margin-right:  auto;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 12px;
+    font-size: 19px;
+    font-family: 'Arapey', serif;
+}
+
+
+.SOCIAL
+{
+    width: 220px;
+    height: 40px;
+    float: right;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+ol
+{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-size: 20px;
+    height: 40px;
+    line-height: 200%;
+    display: inline-block; 
+}
+
+ol a
+{
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+}
+
+ol > li
+{
+    float: left;
+    width: 150px;
+    height: 40px;
+    border-right: 1px solid  rgba(8, 112, 182, 0.966);	
+}
+
+ol > li :first-child
+{
+    border-left: 1px solid rgba(8, 112, 182, 0.966);	
+}
+
+ol > li :hover
+{
+    background-color: rgba(8, 112, 182, 0.966);	
+}
+
+a
+{
+    text-decoration: none;
+}
+
+/*
+font-family: 'Patrick Hand', cursive;
+font-family: 'Arapey', serif;
+font-family: 'Acme', sans-serif;
+font-family: 'Abel', sans-serif;
+*/
